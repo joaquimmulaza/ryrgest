@@ -38,6 +38,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: var(--primary-color); /* Cor de fundo da seleção */
+    color: #fff; /* Cor do texto da seleção */
+}
+
 body {
     font-family: 'Liberation Sans', sans-serif;
     background-color: var(--neutral-color);
